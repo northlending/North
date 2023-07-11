@@ -1,4 +1,6 @@
 import tkinter as tk
+root.protocol("WM_DELETE_WINDOW", root.destroy)
+
 
 class Puppy:
     def __init__(self, name, weight, date):
